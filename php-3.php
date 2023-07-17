@@ -13,7 +13,7 @@
       $age =40; 
       $gpa = 32.9;
       $isMale =false;
-      null;
+      echo $phrase;
        
     ?>
 </body>
