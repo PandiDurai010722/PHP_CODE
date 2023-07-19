@@ -7,20 +7,18 @@
 </head>
 <body>
     <?php
-    
-    // Return Statement
-
-    // 2^3->2*2*2
-   function cube ($num){
-     return  $num*$num*$num;
+   $index=1;
+   while($index <=5){
+     echo "$index<br>";
+     $index++;
    }
+   $index=6;
+   do{
+    echo "$index<br>";
+    $index++; 
+   }while($index<=5);{
 
-   $cubeResult=cube(4);
-   echo $cubeResult;
-   echo "<br>";
-   echo cube(5);
-
-   
-   ?>
+   }
+    ?>
 </body>
 </html>
